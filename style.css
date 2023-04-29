@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: inter;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0 4%;
+}
+
+.header div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.signup-container input{
+    border: none;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    color: white;
+    width: 100%;
+    padding: 8px 0;
+    font-family: inter;
+
+
+}
+
+.signup-container input:focus{
+    outline: none;
+}
+
+.signup-container,.profile-container{
+    margin:  5% 15%;
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: space-evenly; */
+    align-items: flex-start;
+    gap:5px;
+}
+
+.msg{
+
+    align-self: flex-start;
+    color: green;
+}
+.btn{
+    width: 90px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    align-self: flex-start;
+}
+
+.signup-heading{
+    align-self: flex-start;
+    font-size: 36px;
+}
+
+.profile-heading{
+    font-size: 36px;
+}
